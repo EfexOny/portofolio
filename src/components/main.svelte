@@ -12,7 +12,7 @@
 
             </div>
             <div class="pl-4 py-20 text-right sm:text-center">
-              <button class="  text-white font-bold py-2 px-4 border-b-4 rounded">CONTACT ME</button>
+              <button class=" hover:text-black  text-white font-bold py-2 px-4 border-green-700 bg-green-600 rounded">CONTACT ME</button>
           </div>
         </section>
 
