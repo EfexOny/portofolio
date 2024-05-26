@@ -1,5 +1,11 @@
 <script>
 
+  import Step from "./step.svelte"
+
+  let steps = [
+    {name :'EcoWatch', icon: "fa-solid fa-laptop-code"},
+    {name :'Thobor-Robots Gallery', icon: "fa-solid fa-robot"},
+  ]
 
 </script>
 
@@ -15,6 +21,20 @@
               <button class=" hover:text-black  text-white font-bold py-2 px-4 border-green-700 bg-green-600 rounded">CONTACT ME</button>
           </div>
         </section>
+
+      <section>
+        <div class="grid  grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-10">
+          <Step step={steps[0]}>
+
+          </Step>
+          
+          <Step step={steps[1]}>
+
+          </Step>
+
+        </div>
+      </section>
+
 
 
 </main>
